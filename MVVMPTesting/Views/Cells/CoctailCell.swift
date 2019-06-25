@@ -35,6 +35,10 @@ class CoctailCell: UITableViewCell {
     
     func bind(_ model: Drink) {
         self.nameLabel.text = model.strDrink
+        if let url = model.strDrinkThumb {
+            self.coctailImageView.downloaded(from: url)
+        }
+        
     }
     
     override func draw(_ rect: CGRect) {
@@ -42,4 +46,3 @@ class CoctailCell: UITableViewCell {
     }
     
 }
-

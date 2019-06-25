@@ -28,6 +28,7 @@
 		54B1321822C2BA4B0065B0BF /* DataServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321722C2BA4B0065B0BF /* DataServiceProvider.swift */; };
 		54B1321A22C2BA670065B0BF /* DrinkListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321922C2BA670065B0BF /* DrinkListService.swift */; };
 		54B1321E22C2BC100065B0BF /* DrinkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321D22C2BC100065B0BF /* DrinkResponse.swift */; };
+		54B1322022C2BDCB0065B0BF /* UIImage+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321F22C2BDCB0065B0BF /* UIImage+DownloadImage.swift */; };
 		E07A0A33B0A67AB8B2543EDF /* Pods_MVVMPTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11F9619ECC87400E765717D /* Pods_MVVMPTesting.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		54B1321722C2BA4B0065B0BF /* DataServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProvider.swift; sourceTree = "<group>"; };
 		54B1321922C2BA670065B0BF /* DrinkListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListService.swift; sourceTree = "<group>"; };
 		54B1321D22C2BC100065B0BF /* DrinkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkResponse.swift; sourceTree = "<group>"; };
+		54B1321F22C2BDCB0065B0BF /* UIImage+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+DownloadImage.swift"; sourceTree = "<group>"; };
 		771EBDC96BC1147EE968EE0B /* Pods-MVVMPTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMPTesting.debug.xcconfig"; path = "Target Support Files/Pods-MVVMPTesting/Pods-MVVMPTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		AAD5E9F4C3FD5731148D6887 /* Pods-MVVMPTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMPTesting.release.xcconfig"; path = "Target Support Files/Pods-MVVMPTesting/Pods-MVVMPTesting.release.xcconfig"; sourceTree = "<group>"; };
 		F11F9619ECC87400E765717D /* Pods_MVVMPTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMPTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				54B1320822C2AE2D0065B0BF /* Cells.swift */,
+				54B1321F22C2BDCB0065B0BF /* UIImage+DownloadImage.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				54B1320522C2AD1C0065B0BF /* CoctailCell.swift in Sources */,
 				54B1321122C2AF3D0065B0BF /* CoctailListViewModel.swift in Sources */,
 				54B131FD22C2AAFC0065B0BF /* Drink.swift in Sources */,
+				54B1322022C2BDCB0065B0BF /* UIImage+DownloadImage.swift in Sources */,
 				54B1320B22C2AE700065B0BF /* CoctailListMAsterViewContract.swift in Sources */,
 				54B131B422C2A6B60065B0BF /* AppDelegate.swift in Sources */,
 			);
