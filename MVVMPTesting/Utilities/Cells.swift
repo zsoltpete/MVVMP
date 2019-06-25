@@ -1,5 +1,5 @@
 //
-//  Utilities
+//  Cells.swift
 //  MVVMPTesting
 //
 //  Created by Zsolt Pete on 2019. 06. 25..
@@ -8,9 +8,6 @@
 
 import Foundation
 
-/// Contains cell identifiers
 struct Cells {
-    
-    static let Cell = "Cell"
-    
+    static let CoctailCell = "CoctailCell"
 }

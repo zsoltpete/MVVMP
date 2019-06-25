@@ -1,0 +1,6 @@
+framework module CYLocalization {
+  umbrella header "CYLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PixelPerfectSwift {
+  umbrella header "PixelPerfectSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

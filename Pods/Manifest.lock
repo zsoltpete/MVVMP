@@ -1,0 +1,105 @@
+PODS:
+  - Alamofire (5.0.0-beta.3)
+  - AlamofireObjectMapper (6.0.0):
+    - Alamofire (~> 5.0.0-beta.2)
+    - ObjectMapper (~> 3.4)
+  - CYExtensions (0.2.4)
+  - CYLocalization (0.4.0)
+  - ObjectMapper (3.4.2)
+  - PixelPerfectSwift (0.1.3)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxOptional (4.0.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - RxTheme (4.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - SwifterSwift (5.0.0):
+    - SwifterSwift/AppKit (= 5.0.0)
+    - SwifterSwift/CoreGraphics (= 5.0.0)
+    - SwifterSwift/CoreLocation (= 5.0.0)
+    - SwifterSwift/Dispatch (= 5.0.0)
+    - SwifterSwift/Foundation (= 5.0.0)
+    - SwifterSwift/MapKit (= 5.0.0)
+    - SwifterSwift/SpriteKit (= 5.0.0)
+    - SwifterSwift/SwiftStdlib (= 5.0.0)
+    - SwifterSwift/UIKit (= 5.0.0)
+  - SwifterSwift/AppKit (5.0.0)
+  - SwifterSwift/CoreGraphics (5.0.0)
+  - SwifterSwift/CoreLocation (5.0.0)
+  - SwifterSwift/Dispatch (5.0.0)
+  - SwifterSwift/Foundation (5.0.0)
+  - SwifterSwift/MapKit (5.0.0)
+  - SwifterSwift/SpriteKit (5.0.0)
+  - SwifterSwift/SwiftStdlib (5.0.0)
+  - SwifterSwift/UIKit (5.0.0)
+  - SwiftLint (0.32.0)
+  - SwiftyJSON (5.0.0)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.0.0-beta.3)
+  - AlamofireObjectMapper
+  - CYExtensions
+  - CYLocalization
+  - ObjectMapper
+  - PixelPerfectSwift
+  - RxCocoa
+  - RxGesture
+  - RxOptional
+  - RxSwift
+  - RxTheme
+  - SwifterSwift
+  - SwiftLint
+  - SwiftyJSON
+  - Toast
+
+SPEC REPOS:
+  "git@bitbucket.org:team-codeyard/podyard.git":
+    - CYExtensions
+    - CYLocalization
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - ObjectMapper
+    - PixelPerfectSwift
+    - RxCocoa
+    - RxGesture
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxTheme
+    - SwifterSwift
+    - SwiftLint
+    - SwiftyJSON
+    - Toast
+
+SPEC CHECKSUMS:
+  Alamofire: 50d6fa7e8cbe7f84559e86ab641ffd029db655f8
+  AlamofireObjectMapper: 8cf0e01a1b36b485877033f8f6aa733977488da3
+  CYExtensions: c7af34464be84b4e7677f0ee1a0a77e1c0858ee1
+  CYLocalization: 4017c66db421f5047d22bce366d4a7feefc5d8e4
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PixelPerfectSwift: 280d77dd684267a148e93d5f180e18a697615199
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
+  RxOptional: 9904e2219d59260c3c171273d475b2126de187e8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  RxTheme: 0b642f47c7d197a803c6b9c083964188c34f7ddb
+  SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: eae40948e5d749f5637f927c9735b6e2136faf3f
+
+COCOAPODS: 1.6.1

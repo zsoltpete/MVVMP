@@ -1,0 +1,6 @@
+framework module CYExtensions {
+  umbrella header "CYExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
