@@ -1,0 +1,25 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@bitbucket.org:team-codeyard/podyard.git'
+
+# platform :ios, '9.0'
+
+target 'MVVMPTesting' do
+  use_frameworks!
+
+  pod 'Alamofire', '= 5.0.0-beta.3'
+  pod 'AlamofireObjectMapper'
+  pod 'CYExtensions'
+  pod 'CYLocalization'
+  pod 'ObjectMapper'
+  pod 'PixelPerfectSwift'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'RxOptional'
+  pod 'RxSwift'
+  pod 'RxTheme'
+  pod 'SwiftLint'
+  pod 'SwifterSwift'
+  pod 'SwiftyJSON'
+  pod 'Toast'
+  
+end
