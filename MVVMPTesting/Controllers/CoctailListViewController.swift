@@ -16,8 +16,8 @@ class CoctailListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let viewModel = CoctailListViewModel()
+        let service = DrinkListService()
+        let viewModel = CoctailListViewModel(service: service)
         presenter = CoctailListPresenter(view: self.masterView, viewModel: viewModel)
     }
 

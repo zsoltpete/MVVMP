@@ -12,13 +12,19 @@ import RxSwift
 
 class CoctailListViewModel {
     
+    private let disposeBag = DisposeBag()
     var viewState = BehaviorRelay<[Drink]>(value: [])
+    private var service: DrinkListService
+    
+    init(service: DrinkListService) {
+        self.service = service
+    }
     
     func updateViewState(_ model: [Drink]) {
         self.viewState.accept(model)
     }
     
-    func fetch() {
+    func fetchLocal() {
         var drinks = [Drink]()
         
         drinks.append(Drink(name: "Metaxa"))
@@ -26,6 +32,12 @@ class CoctailListViewModel {
         drinks.append(Drink(name: "Bor"))
         
         self.updateViewState(drinks)
+    }
+    
+    func fetch() {
+        self.service.fetchAll().subscribe(onSuccess: { [weak self]drinkResponse in
+            self?.updateViewState(drinkResponse.drinks ?? [])
+        }).disposed(by: disposeBag)
     }
     
 }

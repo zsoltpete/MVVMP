@@ -25,6 +25,9 @@
 		54B1320F22C2AF150065B0BF /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1320E22C2AF150065B0BF /* BasePresenter.swift */; };
 		54B1321122C2AF3D0065B0BF /* CoctailListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321022C2AF3D0065B0BF /* CoctailListViewModel.swift */; };
 		54B1321522C2B0B50065B0BF /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321422C2B0B50065B0BF /* Presentable.swift */; };
+		54B1321822C2BA4B0065B0BF /* DataServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321722C2BA4B0065B0BF /* DataServiceProvider.swift */; };
+		54B1321A22C2BA670065B0BF /* DrinkListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321922C2BA670065B0BF /* DrinkListService.swift */; };
+		54B1321E22C2BC100065B0BF /* DrinkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1321D22C2BC100065B0BF /* DrinkResponse.swift */; };
 		E07A0A33B0A67AB8B2543EDF /* Pods_MVVMPTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11F9619ECC87400E765717D /* Pods_MVVMPTesting.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +52,9 @@
 		54B1320E22C2AF150065B0BF /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		54B1321022C2AF3D0065B0BF /* CoctailListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailListViewModel.swift; sourceTree = "<group>"; };
 		54B1321422C2B0B50065B0BF /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		54B1321722C2BA4B0065B0BF /* DataServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProvider.swift; sourceTree = "<group>"; };
+		54B1321922C2BA670065B0BF /* DrinkListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListService.swift; sourceTree = "<group>"; };
+		54B1321D22C2BC100065B0BF /* DrinkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkResponse.swift; sourceTree = "<group>"; };
 		771EBDC96BC1147EE968EE0B /* Pods-MVVMPTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMPTesting.debug.xcconfig"; path = "Target Support Files/Pods-MVVMPTesting/Pods-MVVMPTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		AAD5E9F4C3FD5731148D6887 /* Pods-MVVMPTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMPTesting.release.xcconfig"; path = "Target Support Files/Pods-MVVMPTesting/Pods-MVVMPTesting.release.xcconfig"; sourceTree = "<group>"; };
 		F11F9619ECC87400E765717D /* Pods_MVVMPTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMPTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +102,7 @@
 		54B131B222C2A6B60065B0BF /* MVVMPTesting */ = {
 			isa = PBXGroup;
 			children = (
+				54B1321622C2BA240065B0BF /* Services */,
 				54B1321222C2B0A40065B0BF /* Protocols */,
 				54B1320722C2AE1F0065B0BF /* Utilities */,
 				54B131FB22C2AA910065B0BF /* Models */,
@@ -162,6 +169,7 @@
 			children = (
 				54B131FE22C2AB4A0065B0BF /* BaseResponse.swift */,
 				54B131FC22C2AAFC0065B0BF /* Drink.swift */,
+				54B1321D22C2BC100065B0BF /* DrinkResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,6 +197,15 @@
 				54B1321422C2B0B50065B0BF /* Presentable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		54B1321622C2BA240065B0BF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54B1321722C2BA4B0065B0BF /* DataServiceProvider.swift */,
+				54B1321922C2BA670065B0BF /* DrinkListService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		91998FAC4F8A23F6437380B8 /* Frameworks */ = {
@@ -370,11 +387,14 @@
 			files = (
 				54B131F322C2A9540065B0BF /* CoctailListViewController.swift in Sources */,
 				54B1320F22C2AF150065B0BF /* BasePresenter.swift in Sources */,
+				54B1321822C2BA4B0065B0BF /* DataServiceProvider.swift in Sources */,
+				54B1321E22C2BC100065B0BF /* DrinkResponse.swift in Sources */,
 				54B1320D22C2AEF80065B0BF /* CoctailListPresenter.swift in Sources */,
 				54B1320922C2AE2D0065B0BF /* Cells.swift in Sources */,
 				54B131F522C2A9720065B0BF /* CoctailListMasterView.swift in Sources */,
 				54B1321522C2B0B50065B0BF /* Presentable.swift in Sources */,
 				54B131FF22C2AB4A0065B0BF /* BaseResponse.swift in Sources */,
+				54B1321A22C2BA670065B0BF /* DrinkListService.swift in Sources */,
 				54B1320522C2AD1C0065B0BF /* CoctailCell.swift in Sources */,
 				54B1321122C2AF3D0065B0BF /* CoctailListViewModel.swift in Sources */,
 				54B131FD22C2AAFC0065B0BF /* Drink.swift in Sources */,
